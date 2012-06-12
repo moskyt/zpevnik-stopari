@@ -3,3 +3,9 @@ pdflatex zpevnik-ipad
 pdflatex zpevnik-a5
 pdflatex zpevnik-a5
 pdflatex zpevnik-booklet
+
+pdflatex zpevnik_plus-ipad
+pdflatex zpevnik_plus-ipad
+pdflatex zpevnik_plus-a5
+pdflatex zpevnik_plus-a5
+pdflatex zpevnik_plus-booklet

@@ -5,8 +5,12 @@
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
 
+\renewcommand*\contentsname{}
+
+
 \newenvironment{song}[2]{%
 \clearpage
+\addcontentsline{toc}{section}{\protect\numberline{}#1}
 \section*{#1}
 \vspace*{-1.6em}
 \noindent {\small \emph{#2}}
