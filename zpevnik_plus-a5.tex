@@ -1,4 +1,4 @@
-\documentclass[a5paper]{article}
+\documentclass[a5paper]{report}
 
 % A5
 \usepackage[top=0.8cm,inner=0.8cm,bottom=1.2cm,outer=1.2cm]{geometry}
@@ -50,7 +50,18 @@
 \thispagestyle{empty}
 \mbox{}
 
-
 \input{songs}
+
+\cleardoublepage
+
+\addcontentsline{toc}{chapter}{\protect\numberline{}Něco navíc}
+
+\input{extra}
+
+\cleardoublepage
+
+\thispagestyle{empty}
+\pagestyle{empty}
+\tableofcontents
 
 \end{document}
